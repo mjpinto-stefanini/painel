@@ -31,11 +31,11 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
-    'laravelpassport' => [
-        'client_id'     => env('PASSPORT_CLIENT_ID'),
-        'client_secret' => env('PASSPORT_CLIENT_SECRET'),
-        'redirect'      => env('PASSPORT_REDIRECT_URL'),
+    'laravelpassport' => [    
+        'client_id'     => env('PASSPORT_CLIENT_ID'),  
+        'client_secret' => env('PASSPORT_CLIENT_SECRET'),  
+        'redirect'      => env('PASSPORT_REDIRECT_URI'),
         'host'          => env('PASSPORT_HOST'),
-    ]
+      ],
 
 ];

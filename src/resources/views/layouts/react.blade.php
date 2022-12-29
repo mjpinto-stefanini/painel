@@ -6,8 +6,7 @@
 
 <body class="ltr horizontalmenu">
     <noscript>Você precisa habilitar Javascript para rodar esta aplicação.</noscript>
-    @inertia
+    
     <div id="root"></div>
-
 </body>
 </html>

@@ -8,7 +8,7 @@ import Loader from "./components/Loader";
 import Header from './components/Header';
 
 const App = React.lazy(() => import('./components/App'));
-const Dashboard = React.lazy(() => import('./pages/Dashboard'));
+const Dashboard = React.lazy(() => import('./Pages/Dashboard'));
 
 const Root = () => {
     return (
