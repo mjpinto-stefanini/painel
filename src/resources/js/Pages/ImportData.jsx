@@ -15,7 +15,9 @@ function ImportData ()
             (file) => !files.find((f) => f.data === file.data)
         );
         setFiles([...files, ...newFiles]);
-        setData('file', files);
+        setData('file', ...newFiles);
+        console.log(data);
+        console.log(newFiles);
     }
     const handleDelete      = (deleted) => {
         setFiles(files.filter((f) => f !== deleted));
