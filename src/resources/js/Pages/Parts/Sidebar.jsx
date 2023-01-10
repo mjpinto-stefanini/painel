@@ -13,13 +13,29 @@ const Sidebar = () => {
                                     <span className="nav-label">Dashboard</span>
                                 </li>
                                 <li className="nav-item">
+<<<<<<< HEAD
                                     <NavLink to="/dashboard" className="nav-link">
+=======
+                                    <NavLink href="/dashboard" className="nav-link">
+>>>>>>> import-xls
                                         <span className="shape1"></span>
                                         <span className="shape2"></span>
                                         <i className="ti-home hor-icon menu-icon"></i>
                                         <span className="sidemenu-label">Dashboard</span>
                                     </NavLink>
                                 </li>
+<<<<<<< HEAD
+=======
+
+                                <li className="nav-item">
+                                    <NavLink href="/importar-dados" className="nav-link">
+                                        <span className="shape1"></span>
+                                        <span className="shape2"></span>
+                                        <i className="ti-write hor-icon menu-icon"></i>
+                                        <span className="sidemenu-label">Importar</span>
+                                    </NavLink>
+                                </li>
+>>>>>>> import-xls
                             </ul>
                         </div>
                     </div>
