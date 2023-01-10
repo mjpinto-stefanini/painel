@@ -11,7 +11,8 @@ export default defineConfig({
         },
         watch: {
             usePolling: true,
-        }
+        },
+        port: 5174
     },
 
     esbuild: {
