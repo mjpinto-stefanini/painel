@@ -16,8 +16,8 @@ class AuthController extends Controller
 
     public function handlerCallback()
     {
-        $oAuthUser  = Socialite::driver('laravelpassport')->user();
-        $user       = new User($oAuthUser->user);
+        $oAuthUser      = Socialite::driver('laravelpassport')->user();
+        $user           = new User($oAuthUser->user);
         $user->password = 'token';
         Auth::login($user, true );
 
